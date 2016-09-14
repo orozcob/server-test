@@ -1,6 +1,5 @@
 # InMotion Server Test
 
-BO basic edit.
 
 This repository is for forking as a basis of the InMotion server developer programming test.
 It provides a basic server application skeleton using the Dropwizard framework.
