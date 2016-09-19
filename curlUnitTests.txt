@@ -1,0 +1,24 @@
+# /api/timeOfDay
+curl -H "Content-Type: application/json" -X GET http://localhost:8080/api/timeOfDay
+
+# /api/movie/create
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/create?name=Midnight%20Run&genre=Action&year=1988&rating=R"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/create?name=Finding%20Nemo&genre=Animation&year=2003&rating=G"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/create?name=Planet%20Of%20The%20Apes&genre=Sci-Fi&year=2001&rating=PG-13"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/create?name=Twelve%20Monkeys&genre=Sci-Fi&year=1995&rating=R"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/create?name=The%20Terminator&genre=Sci-Fi&year=1984&rating=R"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/create?name=The%20Jacket&genre=Sci-Fi&year=2005&rating=R"
+
+# /api/movie/update
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/update?id=2&name=Planet%20Of%20The%20Humans&genre=Adventure&year=2009&rating=PG-13"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/update?id=3&name=Thirteen%20Steps&genre=Drama&year=1998&rating=R"
+
+# /api/movie/delete
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/delete?id=4"
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/delete?id=5"
+
+# /api/movie/list
+curl -H "Content-Type: application/json" -X GET "http://localhost:8080/api/movie/list"
+
+
+
